@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.tags*
+/libusbcamera/src/main/bin
+/app/src/main/bin
+/app/src/main/gen
+/libusbcamera/src/main/gen
