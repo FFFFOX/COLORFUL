@@ -11,7 +11,8 @@ We are committed to letting everyone see this colorful world
 - Not only the type of color barrier is determined, but also the degree of color barrier is determined to thousands of grades
 
 - Here we take red green blindness as an example
-<img src="./data/tips.png">
+<br><br>
+<img src="./data/tips.png" height="400">
 
 ## Main interface
 
@@ -20,7 +21,8 @@ We are committed to letting everyone see this colorful world
 - The design is very simple and has few colors. The purpose is to hope that the app everyone sees is the same clear and recognizable state
 
 - That goes into the first feature color enhancement
-<img src="./data/menu.png">
+<br><br>
+<img src="./data/menu.png" height=400">
 
 ## Color enhancement
 
@@ -62,7 +64,8 @@ We are committed to letting everyone see this colorful world
 - There are many colors in my room now, and you can't see all the colors at this time
 
 - When I started real- time restoration, indeed, during the first experience, our color weak students showed a very surprised expression
-<img src="./data/compare.png">
+<br><br>
+<img src="./data/compare.png" >
 
 ## Sketchpad
 
