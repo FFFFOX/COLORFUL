@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481968C01C08BDEF0058F708 /* Protanopia.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 481968BF1C08BDEF0058F708 /* Protanopia.fsh */; };
+		481968C21C08C5850058F708 /* Deuteranopia.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 481968C11C08C5850058F708 /* Deuteranopia.fsh */; };
+		481968C41C08C5930058F708 /* Tritanopia.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 481968C31C08C5930058F708 /* Tritanopia.fsh */; };
+		481968C61C08C5AD0058F708 /* Mono.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 481968C51C08C5AD0058F708 /* Mono.fsh */; };
+		481968C81C08C9790058F708 /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 481968C71C08C9790058F708 /* Normal.fsh */; };
+		4879EA1D1C0E3CD800A25E4F /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4879EA1C1C0E3CD800A25E4F /* AboutController.swift */; };
+		4879EA1F1C0E3F1600A25E4F /* Info-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 4879EA1E1C0E3F1600A25E4F /* Info-100.png */; };
+		4879EA211C0E475A00A25E4F /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = 4879EA201C0E475A00A25E4F /* info.html */; };
+		4890D3091C0B74DC0055E08D /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4890D3081C0B74DC0055E08D /* UIView+Genie.m */; };
+		4890D30B1C0B75040055E08D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4890D30A1C0B75040055E08D /* QuartzCore.framework */; };
+		4890D3101C0B7E620055E08D /* Compact Camera-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 4890D30D1C0B7E620055E08D /* Compact Camera-100.png */; };
+		4890D3111C0B7E620055E08D /* Glasses-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 4890D30E1C0B7E620055E08D /* Glasses-25.png */; };
+		4890D3121C0B7E620055E08D /* Switch Camera-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 4890D30F1C0B7E620055E08D /* Switch Camera-100.png */; };
+		4890D3161C0CFA9E0055E08D /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4890D3141C0CFA9E0055E08D /* Icon-120.png */; };
+		4890D3171C0CFA9E0055E08D /* icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4890D3151C0CFA9E0055E08D /* icon-180.png */; };
+		48DA8FB31C07C72500D5A4C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA8FB21C07C72500D5A4C7 /* AppDelegate.swift */; };
+		48DA8FB51C07C72500D5A4C7 /* liveRestoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA8FB41C07C72500D5A4C7 /* liveRestoreVC.swift */; };
+		48DA8FB81C07C72500D5A4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DA8FB61C07C72500D5A4C7 /* Main.storyboard */; };
+		48DA8FBA1C07C72500D5A4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DA8FB91C07C72500D5A4C7 /* Assets.xcassets */; };
+		48DA8FE11C07C75600D5A4C7 /* ColorblindFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DA8FE01C07C75600D5A4C7 /* ColorblindFilter.swift */; };
+		48FACF67253CD38F002808AC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48FACF64253CD38F002808AC /* Settings.bundle */; };
+		988FB22627616876005688B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988FB2252761686F005688B8 /* LaunchScreen.storyboard */; };
+		988FB24B27616EB1005688B8 /* Canvas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988FB24427616E8B005688B8 /* Canvas.storyboard */; };
+		988FB24C27616EB1005688B8 /* CBPixelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB22C27616E8B005688B8 /* CBPixelHelper.swift */; };
+		988FB24D27616EB1005688B8 /* resVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23B27616E8B005688B8 /* resVC.swift */; };
+		988FB24E27616EB1005688B8 /* Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB22927616E8B005688B8 /* Draw.swift */; };
+		988FB24F27616EB1005688B8 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB24627616E8B005688B8 /* CanvasViewController.swift */; };
+		988FB25027616EB1005688B8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23227616E8B005688B8 /* Util.swift */; };
+		988FB25127616EB1005688B8 /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB24A27616E8B005688B8 /* menuVC.swift */; };
+		988FB25227616EB1005688B8 /* navigationBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23F27616E8B005688B8 /* navigationBarVC.swift */; };
+		988FB25327616EB1005688B8 /* colorRestoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB24027616E8B005688B8 /* colorRestoreVC.swift */; };
+		988FB25527616EB1005688B8 /* TapAreaExpandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB24827616E8B005688B8 /* TapAreaExpandButton.swift */; };
+		988FB25627616EB1005688B8 /* UIImage+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23427616E8B005688B8 /* UIImage+Util.swift */; };
+		988FB25727616EB1005688B8 /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23527616E8B005688B8 /* UIView+Util.swift */; };
+		988FB25827616EB1005688B8 /* tipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23A27616E8B005688B8 /* tipVC.swift */; };
+		988FB25927616EB1005688B8 /* TestPicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23D27616E8B005688B8 /* TestPicsViewController.swift */; };
+		988FB25A27616EB1005688B8 /* CBColorBlindTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB22D27616E8B005688B8 /* CBColorBlindTypes.swift */; };
+		988FB25C27616EB1005688B8 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23C27616E8B005688B8 /* testVC.swift */; };
+		988FB25D27616EB1005688B8 /* ScreenRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23027616E8B005688B8 /* ScreenRotation.swift */; };
+		988FB25E27616EB1005688B8 /* imageConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23127616E8B005688B8 /* imageConvert.swift */; };
+		988FB25F27616EB1005688B8 /* liveRestoreConfrimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB23827616E8B005688B8 /* liveRestoreConfrimVC.swift */; };
+		988FB26027616EB1005688B8 /* CBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB22E27616E8B005688B8 /* CBController.swift */; };
+		988FB26227617AA9005688B8 /* initialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988FB26127617AA9005688B8 /* initialVC.swift */; };
+		E6DEE6323A9EFED1C7CE9CB2 /* Pods_Colorblind_Goggles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819469F7B459362832F6BC2B /* Pods_Colorblind_Goggles.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		481968B91C08B5280058F708 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11C2F230AA3254054D4F2AFF /* Pods-Colorblind Goggles-Colorblind GogglesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorblind Goggles-Colorblind GogglesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Colorblind Goggles-Colorblind GogglesUITests/Pods-Colorblind Goggles-Colorblind GogglesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EB25C90B72906D11FF70FBD /* Pods_Colorblind_GogglesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colorblind_GogglesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC05A9614907E2BF27E4405 /* Pods-Colorblind Goggles-Colorblind GogglesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorblind Goggles-Colorblind GogglesUITests.release.xcconfig"; path = "Target Support Files/Pods-Colorblind Goggles-Colorblind GogglesUITests/Pods-Colorblind Goggles-Colorblind GogglesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		481968BF1C08BDEF0058F708 /* Protanopia.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Protanopia.fsh; sourceTree = "<group>"; };
+		481968C11C08C5850058F708 /* Deuteranopia.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Deuteranopia.fsh; sourceTree = "<group>"; };
+		481968C31C08C5930058F708 /* Tritanopia.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Tritanopia.fsh; sourceTree = "<group>"; };
+		481968C51C08C5AD0058F708 /* Mono.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Mono.fsh; sourceTree = "<group>"; };
+		481968C71C08C9790058F708 /* Normal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
+		481969191C09385A0058F708 /* Colorblind Goggles-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Colorblind Goggles-Bridging-Header.h"; sourceTree = "<group>"; };
+		485ACBE0253E196300970633 /* MultiSelectSegmentedControl.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = MultiSelectSegmentedControl.license; sourceTree = "<group>"; };
+		485ACBE1253E196300970633 /* BCGenieEffect.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = BCGenieEffect.license; sourceTree = "<group>"; };
+		485ACBE2253E196300970633 /* GPUImage.license */ = {isa = PBXFileReference; lastKnownFileType = text; path = GPUImage.license; sourceTree = "<group>"; };
+		485ACBE3253E196300970633 /* licenses.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = licenses.py; sourceTree = "<group>"; };
+		4879EA1C1C0E3CD800A25E4F /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		4879EA1E1C0E3F1600A25E4F /* Info-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-100.png"; sourceTree = "<group>"; };
+		4879EA201C0E475A00A25E4F /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		4890D3051C0B74BD0055E08D /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
+		4890D3081C0B74DC0055E08D /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
+		4890D30A1C0B75040055E08D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4890D30D1C0B7E620055E08D /* Compact Camera-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Compact Camera-100.png"; sourceTree = "<group>"; };
+		4890D30E1C0B7E620055E08D /* Glasses-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glasses-25.png"; sourceTree = "<group>"; };
+		4890D30F1C0B7E620055E08D /* Switch Camera-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Switch Camera-100.png"; sourceTree = "<group>"; };
+		4890D3141C0CFA9E0055E08D /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		4890D3151C0CFA9E0055E08D /* icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-180.png"; sourceTree = "<group>"; };
+		48DA8FAF1C07C72400D5A4C7 /* Colorblind Goggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colorblind Goggles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DA8FB21C07C72500D5A4C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48DA8FB41C07C72500D5A4C7 /* liveRestoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveRestoreVC.swift; sourceTree = "<group>"; };
+		48DA8FB71C07C72500D5A4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48DA8FB91C07C72500D5A4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48DA8FBE1C07C72500D5A4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DA8FE01C07C75600D5A4C7 /* ColorblindFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorblindFilter.swift; sourceTree = "<group>"; };
+		48FACF64253CD38F002808AC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		819469F7B459362832F6BC2B /* Pods_Colorblind_Goggles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colorblind_Goggles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8E0EF092751A46C824F119 /* Pods-Colorblind GogglesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorblind GogglesTests.debug.xcconfig"; path = "Target Support Files/Pods-Colorblind GogglesTests/Pods-Colorblind GogglesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9613D86FD828D136F572DACC /* Pods-Colorblind Goggles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorblind Goggles.debug.xcconfig"; path = "Target Support Files/Pods-Colorblind Goggles/Pods-Colorblind Goggles.debug.xcconfig"; sourceTree = "<group>"; };
+		988FB2252761686F005688B8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		988FB22927616E8B005688B8 /* Draw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draw.swift; sourceTree = "<group>"; };
+		988FB22C27616E8B005688B8 /* CBPixelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPixelHelper.swift; sourceTree = "<group>"; };
+		988FB22D27616E8B005688B8 /* CBColorBlindTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBColorBlindTypes.swift; sourceTree = "<group>"; };
+		988FB22E27616E8B005688B8 /* CBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBController.swift; sourceTree = "<group>"; };
+		988FB23027616E8B005688B8 /* ScreenRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRotation.swift; sourceTree = "<group>"; };
+		988FB23127616E8B005688B8 /* imageConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageConvert.swift; sourceTree = "<group>"; };
+		988FB23227616E8B005688B8 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		988FB23427616E8B005688B8 /* UIImage+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Util.swift"; sourceTree = "<group>"; };
+		988FB23527616E8B005688B8 /* UIView+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		988FB23827616E8B005688B8 /* liveRestoreConfrimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveRestoreConfrimVC.swift; sourceTree = "<group>"; };
+		988FB23A27616E8B005688B8 /* tipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipVC.swift; sourceTree = "<group>"; };
+		988FB23B27616E8B005688B8 /* resVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resVC.swift; sourceTree = "<group>"; };
+		988FB23C27616E8B005688B8 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		988FB23D27616E8B005688B8 /* TestPicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPicsViewController.swift; sourceTree = "<group>"; };
+		988FB23F27616E8B005688B8 /* navigationBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationBarVC.swift; sourceTree = "<group>"; };
+		988FB24027616E8B005688B8 /* colorRestoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorRestoreVC.swift; sourceTree = "<group>"; };
+		988FB24427616E8B005688B8 /* Canvas.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Canvas.storyboard; sourceTree = "<group>"; };
+		988FB24627616E8B005688B8 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		988FB24827616E8B005688B8 /* TapAreaExpandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAreaExpandButton.swift; sourceTree = "<group>"; };
+		988FB24A27616E8B005688B8 /* menuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		988FB26127617AA9005688B8 /* initialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialVC.swift; sourceTree = "<group>"; };
+		C2B9A182D3477910A8EDAD56 /* Pods-Colorblind GogglesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorblind GogglesTests.release.xcconfig"; path = "Target Support Files/Pods-Colorblind GogglesTests/Pods-Colorblind GogglesTests.release.xcconfig"; sourceTree = "<group>"; };
+		F017D6F67574E5AAF044CBEF /* Pods_Colorblind_Goggles_Colorblind_GogglesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colorblind_Goggles_Colorblind_GogglesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29927CB8EA930B68C856D1D /* Pods-Colorblind Goggles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colorblind Goggles.release.xcconfig"; path = "Target Support Files/Pods-Colorblind Goggles/Pods-Colorblind Goggles.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48DA8FAC1C07C72400D5A4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4890D30B1C0B75040055E08D /* QuartzCore.framework in Frameworks */,
+				E6DEE6323A9EFED1C7CE9CB2 /* Pods_Colorblind_Goggles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		485ACBDF253E196300970633 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				485ACBE0253E196300970633 /* MultiSelectSegmentedControl.license */,
+				485ACBE1253E196300970633 /* BCGenieEffect.license */,
+				485ACBE2253E196300970633 /* GPUImage.license */,
+				485ACBE3253E196300970633 /* licenses.py */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+		4890D30C1C0B7E620055E08D /* ButtonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4879EA1E1C0E3F1600A25E4F /* Info-100.png */,
+				4890D30D1C0B7E620055E08D /* Compact Camera-100.png */,
+				4890D30E1C0B7E620055E08D /* Glasses-25.png */,
+				4890D30F1C0B7E620055E08D /* Switch Camera-100.png */,
+			);
+			path = ButtonIcons;
+			sourceTree = "<group>";
+		};
+		4890D3131C0CFA9E0055E08D /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4890D3141C0CFA9E0055E08D /* Icon-120.png */,
+				4890D3151C0CFA9E0055E08D /* icon-180.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		48DA8FA61C07C72400D5A4C7 = {
+			isa = PBXGroup;
+			children = (
+				4890D30A1C0B75040055E08D /* QuartzCore.framework */,
+				48DA8FB11C07C72500D5A4C7 /* Colorblind Goggles */,
+				48DA8FB01C07C72400D5A4C7 /* Products */,
+				CCBBAE1E6269CC0C826DCCA1 /* Pods */,
+				F84FFA4A211D32E47204E91E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48DA8FB01C07C72400D5A4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DA8FAF1C07C72400D5A4C7 /* Colorblind Goggles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48DA8FB11C07C72500D5A4C7 /* Colorblind Goggles */ = {
+			isa = PBXGroup;
+			children = (
+				988FB22A27616E8B005688B8 /* Controllers */,
+				988FB22727616E8B005688B8 /* Model */,
+				988FB23627616E8B005688B8 /* Views */,
+				485ACBDF253E196300970633 /* Licenses */,
+				48FACF64253CD38F002808AC /* Settings.bundle */,
+				4890D3131C0CFA9E0055E08D /* AppIcons */,
+				4890D30C1C0B7E620055E08D /* ButtonIcons */,
+				48DA8FB21C07C72500D5A4C7 /* AppDelegate.swift */,
+				4879EA1C1C0E3CD800A25E4F /* AboutController.swift */,
+				48DA8FB61C07C72500D5A4C7 /* Main.storyboard */,
+				48DA8FB91C07C72500D5A4C7 /* Assets.xcassets */,
+				48DA8FBE1C07C72500D5A4C7 /* Info.plist */,
+				48DA8FE01C07C75600D5A4C7 /* ColorblindFilter.swift */,
+				481968BF1C08BDEF0058F708 /* Protanopia.fsh */,
+				481968C11C08C5850058F708 /* Deuteranopia.fsh */,
+				481968C31C08C5930058F708 /* Tritanopia.fsh */,
+				481968C51C08C5AD0058F708 /* Mono.fsh */,
+				481968C71C08C9790058F708 /* Normal.fsh */,
+				988FB2252761686F005688B8 /* LaunchScreen.storyboard */,
+				481969191C09385A0058F708 /* Colorblind Goggles-Bridging-Header.h */,
+				4890D3051C0B74BD0055E08D /* UIView+Genie.h */,
+				4890D3081C0B74DC0055E08D /* UIView+Genie.m */,
+				4879EA201C0E475A00A25E4F /* info.html */,
+			);
+			path = "Colorblind Goggles";
+			sourceTree = "<group>";
+		};
+		988FB22727616E8B005688B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				988FB22827616E8B005688B8 /* Entitles */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		988FB22827616E8B005688B8 /* Entitles */ = {
+			isa = PBXGroup;
+			children = (
+				988FB22927616E8B005688B8 /* Draw.swift */,
+			);
+			path = Entitles;
+			sourceTree = "<group>";
+		};
+		988FB22A27616E8B005688B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				988FB22B27616E8B005688B8 /* RestoreSource */,
+				988FB22F27616E8B005688B8 /* Tools */,
+				988FB23327616E8B005688B8 /* Extensions */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		988FB22B27616E8B005688B8 /* RestoreSource */ = {
+			isa = PBXGroup;
+			children = (
+				988FB22C27616E8B005688B8 /* CBPixelHelper.swift */,
+				988FB22D27616E8B005688B8 /* CBColorBlindTypes.swift */,
+				988FB22E27616E8B005688B8 /* CBController.swift */,
+			);
+			path = RestoreSource;
+			sourceTree = "<group>";
+		};
+		988FB22F27616E8B005688B8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				988FB23027616E8B005688B8 /* ScreenRotation.swift */,
+				988FB23127616E8B005688B8 /* imageConvert.swift */,
+				988FB23227616E8B005688B8 /* Util.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		988FB23327616E8B005688B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				988FB23427616E8B005688B8 /* UIImage+Util.swift */,
+				988FB23527616E8B005688B8 /* UIView+Util.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		988FB23627616E8B005688B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				988FB23727616E8B005688B8 /* liveRestore */,
+				988FB23927616E8B005688B8 /* intro */,
+				988FB23D27616E8B005688B8 /* TestPicsViewController.swift */,
+				988FB23E27616E8B005688B8 /* colorRestore */,
+				988FB24127616E8B005688B8 /* drawBoard */,
+				988FB24927616E8B005688B8 /* mainMenu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		988FB23727616E8B005688B8 /* liveRestore */ = {
+			isa = PBXGroup;
+			children = (
+				988FB23827616E8B005688B8 /* liveRestoreConfrimVC.swift */,
+				48DA8FB41C07C72500D5A4C7 /* liveRestoreVC.swift */,
+			);
+			path = liveRestore;
+			sourceTree = "<group>";
+		};
+		988FB23927616E8B005688B8 /* intro */ = {
+			isa = PBXGroup;
+			children = (
+				988FB23A27616E8B005688B8 /* tipVC.swift */,
+				988FB23B27616E8B005688B8 /* resVC.swift */,
+				988FB26127617AA9005688B8 /* initialVC.swift */,
+				988FB23C27616E8B005688B8 /* testVC.swift */,
+			);
+			path = intro;
+			sourceTree = "<group>";
+		};
+		988FB23E27616E8B005688B8 /* colorRestore */ = {
+			isa = PBXGroup;
+			children = (
+				988FB23F27616E8B005688B8 /* navigationBarVC.swift */,
+				988FB24027616E8B005688B8 /* colorRestoreVC.swift */,
+			);
+			path = colorRestore;
+			sourceTree = "<group>";
+		};
+		988FB24127616E8B005688B8 /* drawBoard */ = {
+			isa = PBXGroup;
+			children = (
+				988FB24327616E8B005688B8 /* ViewControllers */,
+				988FB24727616E8B005688B8 /* CustomViews */,
+			);
+			path = drawBoard;
+			sourceTree = "<group>";
+		};
+		988FB24327616E8B005688B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				988FB24427616E8B005688B8 /* Canvas.storyboard */,
+				988FB24627616E8B005688B8 /* CanvasViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		988FB24727616E8B005688B8 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				988FB24827616E8B005688B8 /* TapAreaExpandButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		988FB24927616E8B005688B8 /* mainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				988FB24A27616E8B005688B8 /* menuVC.swift */,
+			);
+			path = mainMenu;
+			sourceTree = "<group>";
+		};
+		CCBBAE1E6269CC0C826DCCA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9613D86FD828D136F572DACC /* Pods-Colorblind Goggles.debug.xcconfig */,
+				F29927CB8EA930B68C856D1D /* Pods-Colorblind Goggles.release.xcconfig */,
+				11C2F230AA3254054D4F2AFF /* Pods-Colorblind Goggles-Colorblind GogglesUITests.debug.xcconfig */,
+				3CC05A9614907E2BF27E4405 /* Pods-Colorblind Goggles-Colorblind GogglesUITests.release.xcconfig */,
+				8A8E0EF092751A46C824F119 /* Pods-Colorblind GogglesTests.debug.xcconfig */,
+				C2B9A182D3477910A8EDAD56 /* Pods-Colorblind GogglesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F84FFA4A211D32E47204E91E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				819469F7B459362832F6BC2B /* Pods_Colorblind_Goggles.framework */,
+				F017D6F67574E5AAF044CBEF /* Pods_Colorblind_Goggles_Colorblind_GogglesUITests.framework */,
+				2EB25C90B72906D11FF70FBD /* Pods_Colorblind_GogglesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48DA8FAE1C07C72400D5A4C7 /* Colorblind Goggles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DA8FD71C07C72500D5A4C7 /* Build configuration list for PBXNativeTarget "Colorblind Goggles" */;
+			buildPhases = (
+				069774B2CAD3F8BF463EFF4D /* [CP] Check Pods Manifest.lock */,
+				48DA8FAB1C07C72400D5A4C7 /* Sources */,
+				48DA8FAC1C07C72400D5A4C7 /* Frameworks */,
+				48DA8FAD1C07C72400D5A4C7 /* Resources */,
+				481968B91C08B5280058F708 /* CopyFiles */,
+				335A7AFCF360132CAACF674E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colorblind Goggles";
+			productName = "Colorblind Goggles";
+			productReference = 48DA8FAF1C07C72400D5A4C7 /* Colorblind Goggles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48DA8FA71C07C72400D5A4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Edmund Dipple";
+				TargetAttributes = {
+					48DA8FAE1C07C72400D5A4C7 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5N2UFHY7V3;
+					};
+				};
+			};
+			buildConfigurationList = 48DA8FAA1C07C72400D5A4C7 /* Build configuration list for PBXProject "Colorblind Goggles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48DA8FA61C07C72400D5A4C7;
+			productRefGroup = 48DA8FB01C07C72400D5A4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48DA8FAE1C07C72400D5A4C7 /* Colorblind Goggles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48DA8FAD1C07C72400D5A4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4890D3171C0CFA9E0055E08D /* icon-180.png in Resources */,
+				48DA8FBA1C07C72500D5A4C7 /* Assets.xcassets in Resources */,
+				4879EA1F1C0E3F1600A25E4F /* Info-100.png in Resources */,
+				4890D3111C0B7E620055E08D /* Glasses-25.png in Resources */,
+				481968C21C08C5850058F708 /* Deuteranopia.fsh in Resources */,
+				48DA8FB81C07C72500D5A4C7 /* Main.storyboard in Resources */,
+				988FB22627616876005688B8 /* LaunchScreen.storyboard in Resources */,
+				4890D3121C0B7E620055E08D /* Switch Camera-100.png in Resources */,
+				4879EA211C0E475A00A25E4F /* info.html in Resources */,
+				481968C81C08C9790058F708 /* Normal.fsh in Resources */,
+				481968C61C08C5AD0058F708 /* Mono.fsh in Resources */,
+				4890D3161C0CFA9E0055E08D /* Icon-120.png in Resources */,
+				481968C41C08C5930058F708 /* Tritanopia.fsh in Resources */,
+				988FB24B27616EB1005688B8 /* Canvas.storyboard in Resources */,
+				481968C01C08BDEF0058F708 /* Protanopia.fsh in Resources */,
+				48FACF67253CD38F002808AC /* Settings.bundle in Resources */,
+				4890D3101C0B7E620055E08D /* Compact Camera-100.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069774B2CAD3F8BF463EFF4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colorblind Goggles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		335A7AFCF360132CAACF674E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colorblind Goggles/Pods-Colorblind Goggles-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MultiSelectSegmentedControl/MultiSelectSegmentedControl.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-19/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SweeterSwift/SweeterSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultiSelectSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SweeterSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colorblind Goggles/Pods-Colorblind Goggles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DA8FAB1C07C72400D5A4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DA8FB51C07C72500D5A4C7 /* liveRestoreVC.swift in Sources */,
+				988FB25F27616EB1005688B8 /* liveRestoreConfrimVC.swift in Sources */,
+				988FB25E27616EB1005688B8 /* imageConvert.swift in Sources */,
+				988FB25D27616EB1005688B8 /* ScreenRotation.swift in Sources */,
+				988FB24D27616EB1005688B8 /* resVC.swift in Sources */,
+				988FB25227616EB1005688B8 /* navigationBarVC.swift in Sources */,
+				988FB25A27616EB1005688B8 /* CBColorBlindTypes.swift in Sources */,
+				988FB25827616EB1005688B8 /* tipVC.swift in Sources */,
+				48DA8FE11C07C75600D5A4C7 /* ColorblindFilter.swift in Sources */,
+				988FB26227617AA9005688B8 /* initialVC.swift in Sources */,
+				988FB24E27616EB1005688B8 /* Draw.swift in Sources */,
+				988FB25C27616EB1005688B8 /* testVC.swift in Sources */,
+				988FB25327616EB1005688B8 /* colorRestoreVC.swift in Sources */,
+				988FB25627616EB1005688B8 /* UIImage+Util.swift in Sources */,
+				988FB24F27616EB1005688B8 /* CanvasViewController.swift in Sources */,
+				988FB25127616EB1005688B8 /* menuVC.swift in Sources */,
+				4890D3091C0B74DC0055E08D /* UIView+Genie.m in Sources */,
+				988FB24C27616EB1005688B8 /* CBPixelHelper.swift in Sources */,
+				988FB25027616EB1005688B8 /* Util.swift in Sources */,
+				988FB25527616EB1005688B8 /* TapAreaExpandButton.swift in Sources */,
+				988FB25927616EB1005688B8 /* TestPicsViewController.swift in Sources */,
+				988FB25727616EB1005688B8 /* UIView+Util.swift in Sources */,
+				48DA8FB31C07C72500D5A4C7 /* AppDelegate.swift in Sources */,
+				988FB26027616EB1005688B8 /* CBController.swift in Sources */,
+				4879EA1D1C0E3CD800A25E4F /* AboutController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48DA8FB61C07C72500D5A4C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48DA8FB71C07C72500D5A4C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48DA8FD51C07C72500D5A4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48DA8FD61C07C72500D5A4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48DA8FD81C07C72500D5A4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9613D86FD828D136F572DACC /* Pods-Colorblind Goggles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5N2UFHY7V3;
+				INFOPLIST_FILE = "Colorblind Goggles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.elmund.Colorblind-Goggleslkjkl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Colorblind Goggles/Colorblind Goggles-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48DA8FD91C07C72500D5A4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F29927CB8EA930B68C856D1D /* Pods-Colorblind Goggles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5N2UFHY7V3;
+				INFOPLIST_FILE = "Colorblind Goggles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.elmund.Colorblind-Goggleslkjkl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Colorblind Goggles/Colorblind Goggles-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48DA8FAA1C07C72400D5A4C7 /* Build configuration list for PBXProject "Colorblind Goggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DA8FD51C07C72500D5A4C7 /* Debug */,
+				48DA8FD61C07C72500D5A4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DA8FD71C07C72500D5A4C7 /* Build configuration list for PBXNativeTarget "Colorblind Goggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DA8FD81C07C72500D5A4C7 /* Debug */,
+				48DA8FD91C07C72500D5A4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48DA8FA71C07C72400D5A4C7 /* Project object */;
+}

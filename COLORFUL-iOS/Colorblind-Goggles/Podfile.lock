@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (5.4.4)
+  - GPUImage (0.1.7)
+  - MultiSelectSegmentedControl (2.3.4):
+    - SweeterSwift
+  - Reveal-SDK (19)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - SnapKit (5.0.1)
+  - SweeterSwift (1.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - GPUImage
+  - MultiSelectSegmentedControl
+  - Reveal-SDK (= 19)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GPUImage
+    - MultiSelectSegmentedControl
+    - Reveal-SDK
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SweeterSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  MultiSelectSegmentedControl: 7d76f9ab6cbf0b23a479332a23dbdb08053d6263
+  Reveal-SDK: 9f0d2c6c12eb7507921e5454ac165b7aa21140a4
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SweeterSwift: 8a90cf3156f5a1b6f39785c479369a16633b5ea9
+
+PODFILE CHECKSUM: a097b40b65d580621536ea71c29473f70c6fbd25
+
+COCOAPODS: 1.11.2
