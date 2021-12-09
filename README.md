@@ -22,7 +22,7 @@ We are committed to letting everyone see this colorful world
 
 - That goes into the first feature color enhancement
 <br><br>
-<img src="./data/menu.png" height=400">
+<img src="./data/menu.png" height="400">
 
 ## Color enhancement
 
